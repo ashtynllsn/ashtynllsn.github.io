@@ -1,0 +1,51 @@
+body{
+    background-image: url("Images/Extra Curriculars/trumpetbg.jpg");
+    background-repeat: repeat;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#content{
+    background-color:#805985;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 120px;
+    padding: 20px;
+    height: 400px;
+    width: 650px;
+}
+nav ul{
+    background-color: #805985;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #fbe436;
+    background-color: #805985;
+}
+nav a:visited, nav a:link{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #edf2b4;
+    background-color: #46447b;
+    box-shadow: 0px 0px 20px 1px #fbe436;
+}
+#photos{
+    display: flex;
+}
+iframe{
+    padding: 20px;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+}

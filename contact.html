@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Personal Project- Ashtyn Ellison for Begginning Website Development-->
+    <!--Completed on 2/16/23-->
+    <!--Contact Form Page-->
+    <title>All About Ashtyn</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+    <div id="container">       
+        <div id="title">
+        <h1>Contact Form</h1>
+        </div>
+        <!--end of title-->
+        <div id="nav bar">
+        <nav>
+            <ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="resume.html">Resumes</a></li>
+				<li><a href="extra-curriculars.html">Extra Curriculars</a></li>
+				<li><a href="contact.html">Contact Form</a></li>
+			</ul>
+        </nav>
+        </div>
+        <!--end of nav bar-->
+        <div id="content">
+            <form method="post" action="https://www.w3schools.com/action_page.php">
+            <fieldset>
+                <legend>Contact Form</legend>
+                    <label for="who">Reason for Contacting</label>
+                        <input id="e" type="radio" name="who" id="Employer" value="1" checked>
+                    <label id="e" class="radio" for="Employer">Potential Employer</label>
+                        <input id="e" type="radio" name="who" id="Fun" value="2">
+                    <label id="e" class="radio" for="Fun">For Fun</label> 
+                    <br>
+                    <label for="name">First Name:</label>
+                        <input type="text" name="firstname" id="name"><br>
+                    <label for="name">Last Name:</label>
+                        <input type="text" name="lastname" id="name"><br>
+                    <label for="email">Email: </label>
+                        <input type="email" name="email" id="email"><br>
+                    <label for="tel">Phone: </label>
+                        <input type="tel" name="phone" id="phone"><br>
+                    <label for="contact">Preferred Contact: </label>
+                    <select name="contact" id="contact">
+                        <option value="none" selected disabled>Please select</option>
+                        <option value="phone">Phone</option>
+                        <option value="text">Text</option>
+                        <option value="email">Email</option>
+                    </select><br>
+                    <label for="textarea">Message:</label>
+                    <textarea type="textarea" name="message" id="message">
+                        Enter your message here</textarea><br>
+                    <label> </label>
+                    <input type="submit" value="Submit">
+                </fieldset>
+               <img id="a" src="Images/Contact/ThankYou.png" alt="Thank You"> 
+            </form>
+        </div>
+        <!--end of content-->
+    </div>
+    <!--end of container-->
+</body>
+<!--end of body-->
+</html>

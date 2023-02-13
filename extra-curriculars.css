@@ -1,0 +1,59 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("Images/Extra Curriculars/extra-curriculars-bg.jpg");
+    background-repeat: repeat;
+    margin: auto;
+}
+h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #493250;
+    color: #ce86a8;
+}
+nav ul{
+    background-color: #805985;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+nav a:visited, nav a:link{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+    background-color: #ce86a8;
+    box-shadow: 0px 0px 20px 1px #493250;
+}
+#content{
+    background-color: white;
+    padding: 20px;
+    color: #46447b;
+    border-radius: 10px;
+    margin-left: 160px;
+    padding: 20px;
+    height: 500px;
+    width: 650px;
+}
+img{
+    display: flex;
+    height: 400px;
+    width: 420px;
+    background-color: white;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#photos{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #46447b;
+}
+ul li{
+    list-style: none;
+}

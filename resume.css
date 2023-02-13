@@ -1,0 +1,53 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(Images/Resumes/resume-bg-image.jpg);
+    background-color: #9e52d0;
+    margin: auto;
+}
+nav{
+    color: #1F2833;
+}
+nav ul{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: white;
+}
+nav a:visited, nav a:link{
+    color: #1F2833;
+    text-decoration: none;
+}
+h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #1F2833;
+}
+#past-resume img{
+    max-height: 1000px;
+    max-width: 1000px;
+}
+nav a:hover{
+    color: white;
+    background-color: gray;
+    box-shadow: 0px 0px 20px 1px #82f6ee;
+}
+#content2{
+    display: inline-flex;
+}
+#content3{
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 5px gray;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 50px;
+    width: 750px;
+}
+iframe{
+    margin-left: 50px;
+    width: 600px;
+    height: 500px;
+    margin-right: 50px;
+}
